@@ -1,16 +1,24 @@
-NMIX
+# NMIX
 
 <p align="center">
-  <img src="assets/logo.png" alt="NMIX Logo" width="200px" height="300px">
-</p><h3 align="center">Anything with numbers</h3><p align="center">
+  <img src="assets/logo.png" alt="NMIX Logo" style="width: 450px !important; height: auto !important; max-width: 100%;">
+</p>
+
+<h3 align="center">Anything with numbers</h3>
+
+<p align="center">
   A modern number utility web application built with pure HTML, CSS, and JavaScript.
   <br>
   NMIX combines calculations, time tools, counters, and more into one smooth and customizable experience.
-</p><p align="center">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
   <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
   <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
-</p>---
+</p>
+
+---
 
 🚀 About NMIX
 
@@ -123,7 +131,9 @@ NMIX focuses on a modern user experience:
 <img src="https://img.shields.io/badge/HTML5-Structure-orange?style=flat-square&logo=html5">
 <img src="https://img.shields.io/badge/CSS3-Design-blue?style=flat-square&logo=css3">
 <img src="https://img.shields.io/badge/JavaScript-Logic-yellow?style=flat-square&logo=javascript">
-</p>- HTML5
+</p>
+
+- HTML5
 - CSS3
 - JavaScript
 - Google Fonts
@@ -186,6 +196,8 @@ All Rights Reserved.
 
 <p align="center">
   Made with ❤️ using JavaScript
-</p><p align="center">
+</p>
+
+<p align="center">
   <b>NMIX — Anything with numbers</b>
 </p>
