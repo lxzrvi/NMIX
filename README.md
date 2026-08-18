@@ -4,200 +4,45 @@
   <img src="assets/logo.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 10px;">
 </p>
 
-<h3 align="center">Anything with numbers</h3>
+<div align="center">
 
-<p align="center">
-  A modern number utility web application built with pure HTML, CSS, and JavaScript.
-  <br>
-  NMIX combines calculations, time tools, counters, and more into one smooth and customizable experience.
-</p>
+  ## 🌐 Live Demo & Access
+  
+  **Try NMIX directly in your browser:**
+  
+  ### 🚀 [https://lxzrvi.github.io/NMIX/](https://lxzrvi.github.io/NMIX/)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
-  <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
-</p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
+    <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
+    <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
+  </p>
 
----
-
-🚀 About NMIX
-
-NMIX is a number-focused web application created to explore different possibilities with numbers.
-
-It brings multiple useful tools together in a single modern interface with:
-
-- Smooth animations
-- Custom themes
-- Responsive design
-- Interactive controls
-- Personalized settings
-
-The entire project is built from scratch using frontend technologies without any external framework.
+</div>
 
 ---
 
-✨ Features
-
-🧮 Calculator
-
-A custom-built calculator experience with:
-
-- ➕ Addition
-- ➖ Subtraction
-- ✖️ Multiplication
-- ➗ Division
-- % Percentage calculations
-- Decimal support
-- Positive/negative number switching
-- Backspace editing
-- Clear calculations
-- Custom NMIX keypad design
+### 📌 About
+**NMIX** is a modern, framework-free web application built using pure HTML, CSS, and JavaScript. It brings basic calculations, time tools, counters, and UI personalizations together into one fast and minimal interface.
 
 ---
 
-⏰ Clock Tools
+### ✨ Core Features
 
-Complete time management tools:
-
-- 🕒 Live local clock
-- ⏳ Countdown timer
-- ⏱️ Stopwatch
-- 🌌 Full-screen clock mode
-- ➕➖ Quick timer adjustments
+* 🧮 **Calculator:** Custom keypad with basic arithmetic, percentages, backspace, and sign switching.
+* ⏰ **Clock Tools:** Real-time clock, stopwatch, countdown timer, and full-screen display.
+* 🔢 **Counters:** Fast counting with tap/hold controls and a random number generator.
+* 🎨 **Personalization:** Light/Dark modes, 5 color themes (Emerald, Ocean, Violet, Sunset, Rose), and custom Google Fonts.
 
 ---
 
-🔢 Counter Tools
+### 👨‍💻 Contributor
 
-Simple and powerful counting utilities:
-
-- Increase counter
-- Decrease counter
-- Reset counter
-- Random number generator
-- Hold buttons for faster counting
-
----
-
-🎨 Personalization
-
-Customize NMIX according to your style:
-
-Appearance
-
-- Light mode
-- Dark mode
-
-Color Themes
-
-- 🟢 Emerald
-- 🔵 Ocean
-- 🟣 Violet
-- 🟠 Sunset
-- 🌹 Rose
-
-Font Styles
-
-Choose from:
-
-- Poppins
-- Inter
-- Outfit
-- Nunito
-- Quicksand
-
-All preferences are automatically saved on your device.
-
----
-
-🖥️ Interface & Design
-
-NMIX focuses on a modern user experience:
-
-- Animated landing screen
-- Dynamic moving background
-- Glass-style UI elements
-- Smooth transitions
-- Responsive layout
-- Mobile-friendly controls
-- Animated result display
-- Clean and minimal interface
-
----
-
-🛠️ Built With
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-Structure-orange?style=flat-square&logo=html5">
-<img src="https://img.shields.io/badge/CSS3-Design-blue?style=flat-square&logo=css3">
-<img src="https://img.shields.io/badge/JavaScript-Logic-yellow?style=flat-square&logo=javascript">
-</p>
-
-- HTML5
-- CSS3
-- JavaScript
-- Google Fonts
-- Web APIs
-
----
-
-📱 Responsive Support
-
-NMIX works smoothly on:
-
-- 📱 Mobile phones
-- 📟 Tablets
-- 💻 Desktop screens
-
-The layout automatically adapts to different screen sizes.
-
----
-
-👨‍💻 Contributor
-
-Alex Ravi
-
-Currently learning web development and building skills step by step.
-
-Skills
-
-- HTML
-- CSS
-- JavaScript
-
-Currently Learning
-
-- Responsive Design
-- UI / UX
-- Web APIs
-
----
-
-🔮 Future Roadmap
-
-NMIX is continuously improving.
-
-Upcoming possibilities:
-
-- Advanced calculator features
-- More number generators
-- Additional counters
-- Productivity tools
-- More customization options
-
----
-
-📄 License
-
-© Alex Ravi
-All Rights Reserved.
+**Alex Ravi** — Web Development Learner
+* **Tech Stack:** HTML5, CSS3, JavaScript (vanilla)
 
 ---
 
 <p align="center">
-  Made with ❤️ using JavaScript
-</p>
-
-<p align="center">
-  <b>NMIX — Anything with numbers</b>
+  © Alex Ravi • Made with ❤️ using JavaScript
 </p>
