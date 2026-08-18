@@ -1,7 +1,7 @@
-🔢 NMIX
+NMIX
 
 <p align="center">
-  <img src="assets/logo.png" alt="NMIX Logo" width="200px" heigth="300px">
+  <img src="assets/logo.png" alt="NMIX Logo" width="200px" height="300px">
 </p><h3 align="center">Anything with numbers</h3><p align="center">
   A modern number utility web application built with pure HTML, CSS, and JavaScript.
   <br>
