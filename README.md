@@ -1,7 +1,7 @@
 # NMIX
 
 <p align="center">
-  <img src="assets/logo.png" alt="NMIX Logo" style="width: 450px !important; height: auto !important; max-width: 100%;">
+  <img src="assets/logo.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 10px;">
 </p>
 
 <h3 align="center">Anything with numbers</h3>
