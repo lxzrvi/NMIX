@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#319b79" id="themeMeta">
+<meta name="description" content="NMIX - anything with numbers">
+<title>NMIX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Inter:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="NMIX.css">
+</head>
+<body data-theme="green" data-font="poppins">
+
+<!-- =====================================================
+     LANDING BACKGROUND
+     ===================================================== -->
+<div id="movingBg" aria-hidden="true">
+<div class="bg-orb orb-one"></div><div class="bg-orb orb-two"></div><div class="bg-orb orb-three"></div>
+<div class="bg-beam beam-one"></div><div class="bg-beam beam-two"></div><div class="bg-shine"></div>
+</div>
+
+<!-- =====================================================
+     LANDING
+     ===================================================== -->
+<div id="welcomeContainer">
+<div id="landingGroup">
+
+<!-- Brand -->
+<div id="brandBox"><p id="appSubTitle">anything with numbers</p><h1 id="appTitle">NMIX</h1></div>
+
+<!-- Actions -->
+<div id="welcomeActions">
+<button id="btnStart" class="welcome-btn" type="button">Start</button>
+<button id="btnShare" class="welcome-btn secondary" type="button">Share</button>
+</div>
+
+<!-- Contributor -->
+<section id="landingContributor" class="contributor-shell landing-contributor-shell">
+<h2 class="contributor-heading">Contributor</h2>
+<div class="contributor-layout">
+<article class="contributor-about">
+<h3>Alex Ravi</h3>
+<div class="bio-message-box"><p id="landingBioMessage" class="bio-message">I'm currently doing a diploma in web development and building my skills step by step.</p></div>
+</article>
+<aside class="skills-area">
+<strong>Skills</strong>
+<div class="skill-list"><span class="skill-chip">HTML</span><span class="skill-chip">CSS</span><span class="skill-chip">JavaScript</span></div>
+<h3 class="learning-title">Learning More</h3>
+<div class="skill-list"><span class="skill-chip learning-chip">Responsive Design</span><span class="skill-chip learning-chip">UI / UX</span><span class="skill-chip learning-chip">Web APIs</span></div>
+</aside>
+</div>
+<div class="contact-links"><a href="tel:+919805414723" class="contact-link">Contact</a><a href="mailto:lxzrvi@gmail.com" class="contact-link">Go to Mail</a></div>
+</section>
+</div>
+
+<!-- Copyright -->
+<footer id="landingFooter"><p>© <span class="copyrightYear"></span> Alex Ravi</p><small>All Rights Reserved</small></footer>
+</div>
+
+<!-- =====================================================
+     FLOATING TOP CONTROLS
+     Stay visible when top screen is collapsed.
+     ===================================================== -->
+<div id="topControls">
+<button id="screenToggle" type="button" aria-label="Hide top screen" aria-expanded="true"><span class="screen-toggle-arrow" aria-hidden="true"></span></button>
+<button id="menuButton" type="button" aria-label="Open settings" aria-expanded="false" aria-controls="settingsPanel"><span></span><span></span><span></span></button>
+</div>
+
+<!-- =====================================================
+     TOP SCREEN
+     ===================================================== -->
+<header id="screenElements">
+
+<!-- Logo Target -->
+<div id="headerLogoSlot"></div>
+
+<!-- Calculator Input -->
+<div id="calc">
+<input type="text" id="num1" placeholder="_" readonly tabindex="-1" aria-label="First number">
+<input type="text" id="equations" placeholder="sign" readonly tabindex="-1" aria-label="Operator">
+<input type="text" id="num2" placeholder="_" readonly tabindex="-1" aria-label="Second number">
+</div>
+
+<!-- Result -->
+<div id="resultbox">
+<div id="resultVisual" aria-hidden="true">
+<div class="result-mesh"></div><div class="result-orb result-orb-one"></div><div class="result-orb result-orb-two"></div>
+<div class="result-wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="result-scan"></div>
+</div>
+<div id="resultRow">
+<button id="timerMinus" class="timer-adjust" type="button" aria-label="Remove five seconds">−</button>
+<div id="mainDisplay" role="button" tabindex="0" aria-label="NMIX result screen"><span id="displayLabel">NMIX LIVE</span><div id="mainscreen">Ready</div><div id="clockDate"></div></div>
+<button id="timerPlus" class="timer-adjust" type="button" aria-label="Add five seconds">+</button>
+</div>
+<p id="status" class="status-info" aria-live="polite">Choose a tool below.</p>
+<button id="exitClockFullscreen" type="button" aria-label="Exit full screen clock"><span aria-hidden="true">×</span> Exit</button>
+</div>
+</header>
+
+<!-- =====================================================
+     SETTINGS
+     ===================================================== -->
+<aside id="settingsPanel" aria-hidden="true">
+<div class="settings-head"><div><strong>NMIX Settings</strong><small>Personalize your interface</small></div><button id="settingsClose" type="button" aria-label="Close settings">×</button></div>
+
+<!-- Dark Mode -->
+<div class="setting-row">
+<div><strong>Appearance</strong><small>Light or dark interface</small></div>
+<button id="darkModeToggle" class="switch" type="button" role="switch" aria-checked="false" aria-label="Toggle dark mode"><span></span></button>
+</div>
+
+<!-- Themes -->
+<div class="setting-block">
+<div class="setting-title"><strong>Color Theme</strong><small>Choose your NMIX color</small></div>
+<div class="theme-options">
+<button class="theme-option theme-green active" data-theme="green" type="button" title="Emerald" aria-label="Emerald theme"></button>
+<button class="theme-option theme-blue" data-theme="blue" type="button" title="Ocean" aria-label="Ocean theme"></button>
+<button class="theme-option theme-purple" data-theme="purple" type="button" title="Violet" aria-label="Violet theme"></button>
+<button class="theme-option theme-orange" data-theme="orange" type="button" title="Sunset" aria-label="Sunset theme"></button>
+<button class="theme-option theme-rose" data-theme="rose" type="button" title="Rose" aria-label="Rose theme"></button>
+</div>
+</div>
+
+<!-- Fonts -->
+<div class="setting-block font-setting">
+<div class="setting-title"><strong>Font Style</strong><small>Choose how NMIX feels</small></div>
+<div class="font-options">
+<button class="font-option active" data-font="poppins" type="button"><span style="font-family:'Poppins',sans-serif">Aa</span>Poppins</button>
+<button class="font-option" data-font="inter" type="button"><span style="font-family:'Inter',sans-serif">Aa</span>Inter</button>
+<button class="font-option" data-font="outfit" type="button"><span style="font-family:'Outfit',sans-serif">Aa</span>Outfit</button>
+<button class="font-option" data-font="nunito" type="button"><span style="font-family:'Nunito',sans-serif">Aa</span>Nunito</button>
+<button class="font-option" data-font="quicksand" type="button"><span style="font-family:'Quicksand',sans-serif">Aa</span>Quicksand</button>
+</div>
+</div>
+<p class="settings-note">Theme, dark mode and font settings are saved on this device.</p>
+</aside>
+<div id="settingsBackdrop"></div>
+
+<!-- =====================================================
+     MAIN APP
+     ===================================================== -->
+<main id="appContent">
+
+<!-- Calculator -->
+<section id="calculatorSection" class="tool-section">
+<button class="section-bar calculator-bar" type="button" aria-expanded="false" aria-controls="calcKeys">
+<span class="bar-icon">÷</span><span class="bar-copy"><strong>Calculator</strong><small>Numbers and operations</small></span><span class="bar-arrow"></span>
+</button>
+<div id="calcKeys" class="section-panel"><div class="section-inner calculator-grid">
+<!-- Numbers -->
+<button class="btn number-btn" data-value="1" type="button">1</button><button class="btn number-btn" data-value="2" type="button">2</button><button class="btn number-btn" data-value="3" type="button">3</button><button class="btn number-btn" data-value="4" type="button">4</button><button class="btn number-btn" data-value="5" type="button">5</button>
+<button class="btn number-btn" data-value="6" type="button">6</button><button class="btn number-btn" data-value="7" type="button">7</button><button class="btn number-btn" data-value="8" type="button">8</button><button class="btn number-btn" data-value="9" type="button">9</button><button class="btn number-btn" data-value="0" type="button">0</button>
+<!-- Operators -->
+<button class="btn operator-btn" data-action="operator" data-value="+" type="button">+</button><button class="btn operator-btn" data-action="operator" data-value="-" type="button">−</button><button class="btn operator-btn" data-action="operator" data-value="×" type="button">×</button><button class="btn operator-btn" data-action="operator" data-value="÷" type="button">÷</button><button class="btn operator-btn" data-action="operator" data-value="%" type="button">%</button>
+<!-- Controls -->
+<button class="btn utility-btn" data-action="decimal" type="button">.</button><button class="btn utility-btn" data-action="toggle-sign" type="button">±</button><button class="btn utility-btn" data-action="backspace" type="button">⌫</button><button class="btn utility-btn danger-btn" data-action="clear" type="button">AC</button><button class="btn operator-btn equal-btn" data-action="equal" type="button">=</button>
+</div></div>
+</section>
+
+<!-- Clock -->
+<section id="clockSection" class="tool-section">
+<button class="section-bar clock-bar" type="button" aria-expanded="false" aria-controls="clockKeys">
+<span class="bar-icon">◷</span><span class="bar-copy"><strong>Clock</strong><small>Timer, clock and stopwatch</small></span><span class="bar-arrow"></span>
+</button>
+<div id="clockKeys" class="section-panel"><div class="section-inner clock-grid">
+<button id="Timerbtn" class="btn mode-btn" type="button"><span class="mode-icon">◴</span><span class="mode-copy"><strong>Timer</strong><small>Countdown</small></span></button>
+<button id="clockbtn" class="btn mode-btn clock-combo-btn" type="button"><span class="mode-icon">◷</span><span class="mode-copy"><strong>Clock</strong><small>Local time</small></span><span id="fullscreenClockBtn" class="inside-fullscreen" role="button" tabindex="0" aria-label="Open full screen clock" title="Full Screen">⛶</span></button>
+<button id="stopwatchbtn" class="btn mode-btn" type="button"><span class="mode-icon">◉</span><span class="mode-copy"><strong>Stopwatch</strong><small>Track time</small></span></button>
+</div></div>
+</section>
+
+<!-- Counters -->
+<section id="counterSection" class="tool-section">
+<button class="section-bar counter-bar" type="button" aria-expanded="false" aria-controls="counterKeys">
+<span class="bar-icon">+</span><span class="bar-copy"><strong>Counters</strong><small>Count and generate</small></span><span class="bar-arrow"></span>
+</button>
+<div id="counterKeys" class="section-panel"><div class="section-inner counter-grid">
+<button id="addbtn" class="btn" type="button"><strong>Add</strong><small>Increase</small></button>
+<button id="erasebtn" class="btn" type="button"><strong>Reset</strong><small>Back to zero</small></button>
+<button id="randombtn" class="btn" type="button"><strong>Random</strong><small>1 – 1000</small></button>
+<button id="minusbtn" class="btn" type="button"><strong>Minus</strong><small>Decrease</small></button>
+</div></div>
+</section>
+
+<!-- Instructions -->
+<section id="instructionsSection" class="tool-section">
+<button class="section-bar instructions-bar" type="button" aria-expanded="false" aria-controls="instructionsContainer">
+<span class="bar-icon">?</span><span class="bar-copy"><strong>How to use NMIX</strong><small>Instructions and controls</small></span><span class="bar-arrow"></span>
+</button>
+<div id="instructionsContainer" class="section-panel"><div class="section-inner instruction-grid">
+<article><strong>Calculator</strong><p>Open Calculator and use the NMIX keypad. The top fields are display-only, so your phone keyboard stays closed.</p></article>
+<article><strong>Operators</strong><p>Choose +, −, ×, ÷ or %. After selecting an operator, buttons enter the second number.</p></article>
+<article><strong>Editing</strong><p>Use decimal, ±, ⌫ and AC to edit or clear calculations.</p></article>
+<article><strong>Result</strong><p>Press = or tap the large NMIX display when the expression is ready.</p></article>
+<article><strong>Timer</strong><p>Tap Timer to open it. Use − / + for five seconds and hold Timer to start or pause.</p></article>
+<article><strong>Clock</strong><p>Tap Clock for local time. Use ⛶ inside the Clock button for full screen.</p></article>
+<article><strong>Stopwatch</strong><p>Tap to start or pause. Hold Stopwatch to reset.</p></article>
+<article><strong>Counters</strong><p>Add and Minus change by one. Hold them for rapid counting.</p></article>
+<article><strong>Random</strong><p>Tap Random for 1–1000. Hold it for rapid random values.</p></article>
+<article><strong>Top Screen</strong><p>Use the top-left arrow to hide/show the NMIX screen. Opening a tool automatically restores it.</p></article>
+<article><strong>Settings</strong><p>Use the hamburger for dark mode, five colors and five fonts.</p></article>
+</div></div>
+</section>
+
+<!-- Contributor -->
+<section id="contributorContainer" class="main-contributor contributor-shell">
+<h2 class="contributor-heading">Contributor</h2>
+<div class="contributor-layout">
+<article class="contributor-about"><h3>Alex Ravi</h3><div class="bio-message-box"><p id="mainBioMessage" class="bio-message">I'm currently doing a diploma in web development and building my skills step by step.</p></div></article>
+<aside class="skills-area">
+<strong>Skills</strong><div class="skill-list"><span class="skill-chip">HTML</span><span class="skill-chip">CSS</span><span class="skill-chip">JavaScript</span></div>
+<h3 class="learning-title">Learning More</h3><div class="skill-list"><span class="skill-chip learning-chip">Responsive Design</span><span class="skill-chip learning-chip">UI / UX</span><span class="skill-chip learning-chip">Web APIs</span></div>
+</aside>
+</div>
+<div class="contact-links"><a href="tel:+919805414723" class="contact-link">Contact</a><a href="mailto:lxzrvi@gmail.com" class="contact-link">Go to Mail</a></div>
+</section>
+
+<!-- Back -->
+<div id="backArea"><button id="btnBack" type="button" aria-label="Back to welcome page"><span class="back-icon" aria-hidden="true"></span></button></div>
+
+<!-- Copyright -->
+<footer id="appFooter"><p>© <span class="copyrightYear"></span> Alex Ravi</p><small>All Rights Reserved · NMIX · anything with numbers</small></footer>
+</main>
+
+<script src="NMIX.js"></script>
+</body>
+</html>
