@@ -1,7 +1,7 @@
 # NMIX
 
 <div align="center" style="line-height:0;">
-  <img src="assets/icon3.png" width="100%" style="border-radius:40px; display:block;">
+  <img src="assets/icon3.png" width="100%" style="border-radius:40px !important; display:block !important;">
   <img src="assets/logo.png" width="100%" style="display:block;">
 </div>
 
