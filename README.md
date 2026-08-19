@@ -1,9 +1,9 @@
 # NMIX
 
-<p align="center">
-  <img src="assets/icon3.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 40px;">
-  <img src="assets/logo.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 10px; margin-top: 5px;">
-</p>
+<div align="center">
+  <img src="assets/icon3.png" width="100%" style="border-radius:40px; display:block;">
+  <img src="assets/logo.png" width="100%" style="border-radius:10px; display:block;">
+</div>
 
 <div align="center">
 
