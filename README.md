@@ -1,8 +1,8 @@
 # NMIX
 
-<div align="center">
+<div align="center" style="line-height:0;">
   <img src="assets/icon3.png" width="100%" style="border-radius:40px; display:block;">
-  <img src="assets/logo.png" width="100%" style="border-radius:10px; display:block;">
+  <img src="assets/logo.png" width="100%" style="display:block;">
 </div>
 
 <div align="center">
