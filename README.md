@@ -1,7 +1,7 @@
 # NMIX
 
 <p align="center">
-  <img src="assets/logo2.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 40px;">
+  <img src="assets/nmix-splash-v2.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 40px;">
   <img src="assets/logo.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 10px;">
 </p>
 
