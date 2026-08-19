@@ -1,24 +1,8 @@
 # NMIX
 
 <div align="center" style="line-height:0;">
-  <img src="assets/icon3.png" width="100%" style="border-radius:40px !important; display:block !important;">
+  <img src="assets/nmixMain.png" width="100%" style="border-radius:40px !important; display:block !important;">
   <img src="assets/logo.png" width="100%" style="display:block;">
-</div>
-
-<div align="center">
-
-<p>
-  <span style="font-family: 'Bodoni Moda', serif; font-size:90px; font-weight:700; letter-spacing:12px;">
-    NMIX
-  </span>
-</p>
-
-<p>
-  <span style="font-family: Inter, sans-serif; letter-spacing:14px; font-size:18px;">
-    ANYTHING WITH NUMBERS
-  </span>
-</p>
-
 </div>
 
 <div align="center">
