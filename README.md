@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="assets/logo2.png alt=NMIX icon logo" style="display: block; width: 100%; height: auto;">
-  <img src="assets/logo.png" alt="NMIX Logo" style="display: block; width: 100%; height: auto; aspect-ratio: 2664 / 888; border-radius: 10px;">
 </p>
 
 <div align="center">
