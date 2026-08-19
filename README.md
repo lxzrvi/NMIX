@@ -7,6 +7,22 @@
 
 <div align="center">
 
+<p>
+  <span style="font-family: 'Bodoni Moda', serif; font-size:90px; font-weight:700; letter-spacing:12px;">
+    NMIX
+  </span>
+</p>
+
+<p>
+  <span style="font-family: Inter, sans-serif; letter-spacing:14px; font-size:18px;">
+    ANYTHING WITH NUMBERS
+  </span>
+</p>
+
+</div>
+
+<div align="center">
+
   ## 🌐 Live Demo & Access
   
   **Try NMIX directly in your browser:**
