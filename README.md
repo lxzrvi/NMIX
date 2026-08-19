@@ -1,49 +1,53 @@
 # NMIX
 
 <div align="center" style="line-height:0;">
-  <img src="assets/nmixMain.png" width="100%" style="border-radius:40px !important; display:block !important;">
-  <img src="assets/logo.png" width="100%" style="display:block;">
+  <img src="assets/nmixMain.png" width="100%">
+  <img src="assets/logo.png" width="100%">
 </div>
 
 <div align="center">
 
-  ## 🌐 Live Demo & Access
-  
-  **Try NMIX directly in your browser:**
-  
-  ### 🚀 [https://lxzrvi.github.io/NMIX/](https://lxzrvi.github.io/NMIX/)
+## ◉ Live Demo
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
-    <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
-    <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
-  </p>
+**Access NMIX:**  
+https://lxzrvi.github.io/NMIX/
+
+<img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5">
+<img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3">
+<img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
 
 </div>
 
 ---
 
-### 📌 About
-**NMIX** is a modern, framework-free web application built using pure HTML, CSS, and JavaScript. It brings basic calculations, time tools, counters, and UI personalizations together into one fast and minimal interface.
+## About
+
+**NMIX** is a lightweight number utility web app built with pure HTML, CSS, and JavaScript.
+
+A simple interface for calculations, time tools, counters, and customization.
 
 ---
 
-### ✨ Core Features
+## Features
 
-* 🧮 **Calculator:** Custom keypad with basic arithmetic, percentages, backspace, and sign switching.
-* ⏰ **Clock Tools:** Real-time clock, stopwatch, countdown timer, and full-screen display.
-* 🔢 **Counters:** Fast counting with tap/hold controls and a random number generator.
-* 🎨 **Personalization:** Light/Dark modes, 5 color themes (Emerald, Ocean, Violet, Sunset, Rose), and custom Google Fonts.
-
----
-
-### 👨‍💻 Contributor
-
-**Alex Ravi** — Web Development Learner
-* **Tech Stack:** HTML5, CSS3, JavaScript (vanilla)
+◆ Calculator — Arithmetic, %, editing controls  
+◆ Clock — Timer, stopwatch, real-time clock  
+◆ Counters — Fast counting and random numbers  
+◆ Customization — Themes, dark mode, and fonts  
 
 ---
 
-<p align="center">
-  © Alex Ravi • Made with ❤️ using JavaScript
-</p>
+## Contributor
+
+**Alex Ravi**  
+Web Development Learner
+
+**Built with:** HTML • CSS • JavaScript
+
+---
+
+<div align="center">
+
+© Alex Ravi · Built with JavaScript
+
+</div>
